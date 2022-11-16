@@ -41,7 +41,7 @@ class PortfolioStats extends StatelessWidget {
             runSpacing: 20,
             children: status.map((e) {
               return Container(
-                padding: const EdgeInsets.symmetric(vertical: 15),
+                padding: const EdgeInsets.symmetric(vertical: 14),
                 // width: ScreenHelper.isMobile(context)
                 //     ? constraint.maxWidth / 2.0 - 10
                 //     : (constraint.maxWidth / 4.0 - 20),
