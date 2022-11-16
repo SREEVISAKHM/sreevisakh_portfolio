@@ -49,7 +49,7 @@ class Footer extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return Container(
+    return SizedBox(
       child: ScreenHelper(
         desktop: _buildUi(kDesktopMaxWidth, context),
         tablet: _buildUi(kTabletMaxWidth, context),

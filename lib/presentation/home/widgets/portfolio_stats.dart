@@ -42,10 +42,10 @@ class PortfolioStats extends StatelessWidget {
             children: status.map((e) {
               return Container(
                 padding: const EdgeInsets.symmetric(vertical: 15),
-                width: ScreenHelper.isMobile(context)
-                    ? constraint.maxWidth / 2.0 - 10
-                    : (constraint.maxWidth / 4.0 - 20),
-                child: Row(children: [
+                // width: ScreenHelper.isMobile(context)
+                //     ? constraint.maxWidth / 2.0 - 10
+                //     : (constraint.maxWidth / 4.0 - 20),
+                child: Wrap(children: [
                   AnimatedCounter(value: e.animatedCounterValue),
                   const SizedBox(
                     width: 10.0,
